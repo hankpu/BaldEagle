@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Winter Foraging Range and Communal Roost Sites</title>
+
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
+
+<style>
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; };
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiaGFua3AiLCJhIjoiY203dzRmdWt5MDFwMjJtcHV4eDZjeG5ydyJ9.EnPsvtd6-CdbfBX1vJ3FVA';                   //Mapbox Accesstoken
+
+    var map = new mapboxgl.Map({
+        container: 'map', // container id
+        style: 'mapbox://styles/hankp/cm8gd34rw00zz01so09rz69qi', // stylesheet URL, the style that you've created
+        center: [-104.98485031045975, 39.99882534014673], // starting position [lng, lat]
+        zoom: 8 // starting zoom
+    });
+
+</script>
+
+</body>
+</html>
